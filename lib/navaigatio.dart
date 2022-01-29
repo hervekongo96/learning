@@ -8,8 +8,8 @@ class NavP extends StatefulWidget {
 }
 
 class _NavPState extends State<NavP> {
- // int _selection = 0;
- /* final List _widgetOptions = [
+  // int _selection = 0;
+  /* final List _widgetOptions = [
     const Text(" "),
     const Text(" "),
     const Text(" "),
@@ -24,8 +24,8 @@ class _NavPState extends State<NavP> {
   }*/
 
   var note = 0;
-  var note2 = 0;
-  var note3 = 0;
+  var note2 = 2;
+  var note3 = 3;
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -69,7 +69,7 @@ class _NavPState extends State<NavP> {
             Text('$note3'),
           ]),
       body: const Center(
-        child: Text('b'),//widgetOptions.elementAt(_selection),
+        child: Text('b'), //widgetOptions.elementAt(_selection),
       ),
       bottomNavigationBar: BottomNavigationBar(
         backgroundColor: Colors.black,
